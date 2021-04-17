@@ -5,7 +5,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 {
 	$uname=$_POST["uname"];
 	$pass=$_POST["pass"];
-	if($uname=="Ratul" && $pass=="eta password")
+	if($uname=="Nabil" && $pass=="12345")
 	{
 		session_start();
 		$_SESSION["user"]=$uname;

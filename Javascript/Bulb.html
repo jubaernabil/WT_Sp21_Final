@@ -1,0 +1,49 @@
+<html>
+	<body>
+		
+		<p id="p1"></p>
+		<p id="p2"> This is from HTML and JavaScriopt</p>
+		<h1 id="hd1"></h1>
+		
+		<button onclick="turnOn1()">Turn on</button>
+		<img id="pic1" src="https://www.w3schools.com/js/pic_bulboff.gif">
+		<button onclick="turnOff1()">Turn off</button>
+		<span style="padding-right:50px"> </span>
+		<button onclick="turnOn2()">Turn on</button>
+		<img id="pic2" src="https://www.w3schools.com/js/pic_bulboff.gif">
+		<button onclick="turnOff2()">Turn off</button>
+		<span style="padding-right:50px"> </span>
+		<button onclick="turnOn3()">Turn on</button>
+		<img id="pic3" src="https://www.w3schools.com/js/pic_bulboff.gif">
+		<button onclick="turnOff3()">Turn off</button>
+		
+	<script>
+		function turnOn1(){
+			var pic = document.getElementById('pic1');
+			pic.src='https://www.w3schools.com/js/pic_bulbon.gif';
+		}
+		function turnOff1(){
+			var pic = document.getElementById('pic1');
+			pic.src='https://www.w3schools.com/js/pic_bulboff.gif';
+		}
+		
+		function turnOn2(){
+			var pic = document.getElementById('pic2');
+			pic.src='https://www.w3schools.com/js/pic_bulbon.gif';
+		}
+		function turnOff2(){
+			var pic = document.getElementById('pic2');
+			pic.src='https://www.w3schools.com/js/pic_bulboff.gif';
+		}
+		
+		function turnOn3(){
+			var pic = document.getElementById('pic3');
+			pic.src='https://www.w3schools.com/js/pic_bulbon.gif';
+		}
+		function turnOff3(){
+			var pic = document.getElementById('pic3');
+			pic.src='https://www.w3schools.com/js/pic_bulboff.gif';
+		}
+		
+	</script>
+</html>
